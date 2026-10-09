@@ -24,9 +24,9 @@ const perguntas = [
                 ],
             }           
             
-        ]
-    },
-    {
+
+
+
         enunciado: "Com a descoberta desta tecnologia, chamada Inteligência Artificial (IA), uma professora de tecnologia da escola decidiu fazer uma sequência de aulas sobre elaIA. No fim de uma aula ela pede que você escreva um trabalho sobre o uso de tecnologia em sala de aula. Qual atitude você toma?",
         alternativas: [
             {
@@ -34,17 +34,17 @@ const perguntas = [
                 afirmacao:"afirmacao"
             },
             {
-                texto: "Escrever o trabalho com base nas conversas que teve com colegas, algumas pesquisas na internet e conhecimentos próprios sobre o tema.",
+                texro:"escreva o trabalho com bas nas conversas que teve com colegas, algumas pesquisas na internet e conhecimentos próprios sobre o tema.",
                 afirmacao:"afirmacao"
             }
-        ]
-    },
-    {
+
+
+
         enunciado: "Após a elaboração do trabalho, a professora realizou um debate entre a turma para entender como foi realizada a pesquisa e escrita. Nessa conversa também foi levantado um ponto muito importante: como a IA impacta o trabalho do futuro. Nesse debate, como você se posiciona?",
         alternativas: [
             {
-                texto:"Me preocupo com as pessoas que perderão seus empregos para máquinas e defendem a importância de proteger os trabalhadores.",
-                afirmacao:"afirmacao"
+               texto "Me preocupo com as pessoas que perderão seus empregos para máquinas e defendem a importância de proteger os trabalhadores.",
+               afirmacao:"afirmacao"  
             },
             {
                 texto:"Defende a ideia de que a IA pode criar novas oportunidades de emprego e melhorar habilidades humanas.",
@@ -58,11 +58,13 @@ const perguntas = [
         alternativas: [
             {
                 texto:"Criar uma imagem utilizando uma plataforma de design como o Paint.",
-                afirmacao:"afirmacao"
+                afirmacao:"afirmacao" ["notou tambem que muitas pessoas nao sabem usar"
+                "ainda acha que os meios de desenhos tradicionas sao mais dificeis"  ]
             },
             {
                 texto:"Criar uma imagem utilizando um gerador de imagem de IA.",
-                afirmacao:"afirmacao"
+                afirmacao:"afirmacao" ["acelerou o processo de criacao de trabalhos utilixados"
+                "percebeu que muitas pesoastem difivuldade"]
             }
             
         ]
@@ -73,10 +75,14 @@ const perguntas = [
             {
                 texto: "O chat pode ser uma tecnologia muito avançada, mas é preciso manter a atenção pois toda máquina erra, por isso revisar o trabalho e contribuir com as perspectivas pessoais é essencial.",
                 afirmacao:"afirmacao"
+                ["tem difuculdade em expressar opinioês profundas"
+                "infelizmnte passou a utilizar IA em todos seus trabalhos"
+                ]
             },
             {
                 texto: "Escrever comandos para o chat é uma forma de contribuir com o trabalho, por isso não é um problema utilizar o texto inteiro.",
-                afirmacao:"afirmacao"
+                afirmacao:"afirmacao" ["percebeu que toda IA repreodus orientaçôes baseadas em coisas reais"
+                ]
             }
             
             
